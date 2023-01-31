@@ -1,9 +1,24 @@
-body {
-    background-color: peachpuff;
+.grid-container {
+    display:grid;
+    gap: 50px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: #555;
 }
 
 #bernieImg {
     max-height: 200px;
+}
+
+#horiseonImg {
+    max-height:300px;
+}
+
+body {
+    background-color: peachpuff;
 }
 
 ul {
